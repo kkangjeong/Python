@@ -1,13 +1,13 @@
-"""
-#함수_1
+# 함수
+#1
 def hello():
     print("hello world")
 #들여쓰기 주의(들여쓰기로 구분)
+hello()
 
 def hello(name):
     print("hello %s" % (name))
 
-hello()  #와이??
 hello("유재석")
 
 
@@ -60,7 +60,7 @@ print(get_square(3))      # 이 때 9출력
 
 
 # global변수와 local변수
-
+"""
 #1
 def x_is_one():
      x = 1
@@ -68,7 +68,7 @@ def x_is_one():
 x_is_one()
 print(x)
 # x가 지역변수라 오류메시지
-
+"""
 
 #2
 def x_is_one():
@@ -78,6 +78,8 @@ def x_is_one():
 x = 5
 x_is_one()
 print(x)
+
+#답은 1이다
 
 #3
 def multiply_by_three():
@@ -90,7 +92,6 @@ print(y)
 
 #답은 2이다
 
-"""
 
 
 #상수는 대문자가 굿//global변수 가장 좋은 예가 상수//상수: 프로그램 내내 바뀌지 않는 값
