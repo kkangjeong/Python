@@ -6,6 +6,8 @@
 # 모듈 사용법
 # from 모듈파일이름 import 불러올 변수/함수/클래스
 from test import sum, square
+# 이렇게 꼭 써야
+
 
 print(sum(2,5))
 print(square(3))

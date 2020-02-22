@@ -20,7 +20,7 @@ in_file.close()
 # 2
 # strip 익히기(맨 앞/맨 뒤 화이트스페이스(띄어쓰기, 엔터, 탭) 없애서 출력)
 # print("     abc     def     ".strip())
-# print("    /n   abc  def  /n/n   ".strip())
+# print("    \n   abc  def  \n\n   ".strip())
 
 
 # 1을 \n 없애서 출력하려고
@@ -62,7 +62,7 @@ print("1 2 3 4 5 6".split())
 
 
 
-some_string = "   abc    def   /n   gh   lmnop   q r /n s  "
+some_string = "   abc    def   \n   gh   lmnop   q r \n s  "
 print(some_string.split())
 # ['abc', 'def', 'gh', 'lmnop', 'q', 'r', 's']
 
